@@ -2,6 +2,10 @@ import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './offering.css';
+import DesignConsultation from '../../Assets/DesignConsultation.jpg';
+import FurnitureSelection from '../../Assets/FurnitureSelection.jpg';
+import SpacePlanning from '../../Assets/SplacePlanning.jpeg';
+
 export class Offering extends Component {
   static propTypes = {}
 
@@ -33,15 +37,15 @@ export class Offering extends Component {
 
         <Row>
             <Col md={4} className='grid1'>
-            <img className='img-set' variant="top" src="https://flyingcdn-98ab332c.b-cdn.net/wp-content/uploads/2019/01/modern-luxury-bedroom-design-by-top-interior-designers-in-delhi.jpg" />
+            <img className='img-set' variant="top" src={DesignConsultation} />
                     
             </Col>
             <Col md={4} className='grid2'>
-            <img className='img-set' variant="top" src="https://flyingcdn-98ab332c.b-cdn.net/wp-content/uploads/2019/01/modern-luxury-bedroom-design-by-top-interior-designers-in-delhi.jpg" />
+            <img className='img-set' variant="top" src={FurnitureSelection} />
             
             </Col>
             <Col md={4} className='grid3'>
-            <img className='img-set' variant="top" src="https://flyingcdn-98ab332c.b-cdn.net/wp-content/uploads/2019/01/modern-luxury-bedroom-design-by-top-interior-designers-in-delhi.jpg" />
+            <img className='img-set' variant="top" src={SpacePlanning} />
             
             </Col>
 

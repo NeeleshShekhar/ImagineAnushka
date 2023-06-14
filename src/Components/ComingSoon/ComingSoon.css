@@ -1,0 +1,35 @@
+.homecard-main{
+    background: radial-gradient(106.04% 435.91% at -3.95% 64.25%, #CFF4FF 0%, rgba(219, 255, 251, 0.461614) 53.84%, rgba(207, 244, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.head{
+    font-size: 100px;
+}
+.card-img-set{
+    height: 300px;
+    object-fit:cover
+}
+
+.readmorebuttoncard{
+    background-color: #046F91;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #046F91 !important;
+}
+
+.card-main{
+margin: 5px;
+max-width: 100%;
+    transition: box-shadow 0.2s ease-in-out;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-main:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    border-radius: 5px;
+}

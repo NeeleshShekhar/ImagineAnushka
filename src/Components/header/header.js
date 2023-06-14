@@ -4,6 +4,7 @@ import './header.css';
 import Home from '../Home/home';
 import CaraouselMain from '../Caraousel/Caraousel';
 import Offering from '../Offering/Offering';
+import Comingsoon from '../ComingSoon/ComingSoon';
 
 
 export class Header extends Component {
@@ -16,6 +17,7 @@ export class Header extends Component {
         <Home/>
         {/* <CaraouselMain/> */}
         <Offering/>
+        <Comingsoon/>
       </div>
     )
   }
