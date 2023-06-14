@@ -1,0 +1,25 @@
+.offer-head{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.grid1{
+    background: #b1f1ff;
+    padding: 20px;
+}
+
+.grid2{
+    background: #9cf8ff;
+    padding: 20px;
+}
+
+.grid3{
+    background: #9ffff7;
+    padding: 20px;
+}
+
+.img-set{
+    max-width: 100%;
+    border-radius: 15px;
+}

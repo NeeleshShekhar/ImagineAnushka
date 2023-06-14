@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@600&display=swap');
+
+.home-main{
+    
+    padding: 40px; 
+}
+
+.align-left{
+    align-items: start;
+}
+
+.Home-main-text{
+    padding: 10px;
+}
+
+.modernint{
+    font-size: 70px;
+    font-weight: 700;
+    text-align: left;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(80.45% 360.82% at 1.74% 12.03%, #00536D 0%, #21B8AF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.mixmatch{
+    font-size: 70px;
+    font-weight: 400;
+    text-align: left;
+}
+.mixmatch-desc{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.image-firstbox{
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+
+}
+
+.startnowbutton{
+    border: 1px solid #046F91;
+border-radius: 5px;
+text-align: left;
+font-size: 15px;
+margin-right: 30px;
+padding: 15px;
+color: #00536D;
+
+}
+
+.readmorebutton{
+background: #00536D;
+border-radius: 5px;
+color: #CFF4FF;
+text-align: left;
+font-size: 15px;
+
+padding: 15px;
+
+}
+
+.leftpls{
+    text-align: left;
+}
+

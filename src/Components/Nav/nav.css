@@ -1,0 +1,20 @@
+.main-nav-blur{
+    backdrop-filter: blur(6px);
+}
+
+.nav-detail{
+    background: radial-gradient(106.04% 435.91% at -3.95% 64.25%, #CFF4FF 0%, rgba(219, 255, 251, 0.461614) 53.84%, rgba(207, 244, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    
+    
+}
+
+.nav-image{
+    
+    box-shadow: 2px 4px 9px 1px rgba(100, 100, 100, 0.25);
+    border-radius: 12px;
+}
+
+.nav-brand-title{
+    padding-left: 15px;
+    font-weight: 800px;
+}
