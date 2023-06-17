@@ -44,18 +44,21 @@ border-radius: 12px;
 }
 
 .startnowbutton{
-    border: 1px solid #046F91;
+    
 border-radius: 5px;
 text-align: left;
 font-size: 15px;
-margin-right: 30px;
+
 padding: 15px;
-color: #00536D;
+margin-right: 10px;
+color: aliceblue;
+
 
 }
 
 .readmorebutton{
-background: #00536D;
+
+border: #00536D;
 border-radius: 5px;
 color: #CFF4FF;
 text-align: left;

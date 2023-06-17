@@ -12,7 +12,7 @@ function NavbarMain() {
       <Container>
         <Navbar.Brand href="/">
             
-        <img className='nav-image' src={logo} width={50} height={50}></img> 
+        <img className='nav-image' src={logo} width={70} height={50}></img> 
             <span className='nav-brand-title'>Anushka Imagine</span>
       
 
@@ -21,10 +21,10 @@ function NavbarMain() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#link">Gallery</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
+            {/* <Nav.Link href="#link">Gallery</Nav.Link> */}
+            <Nav.Link href="/projects">Projects</Nav.Link>
 
-            <Nav.Link href="#link">Login</Nav.Link>
+            {/* <Nav.Link href="#link">Login</Nav.Link> */}
 
             {/* <NavDropdown title="" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>

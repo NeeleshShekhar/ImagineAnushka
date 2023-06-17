@@ -9,6 +9,11 @@ import {
 } from "react-router-dom";
 import Header from './Components/header/header';
 import { ContactUs } from './Components/ContactUs/ContactUs';
+import AddProject from './Components/AddProject/AddProject';
+import ProjectsHome from './Components/ProjectsHome/ProjectsHome';
+import ProjectDetail from './Components/ProjectDetail/ProjectDetail';
+
+
 
 function App() {
   return (
@@ -18,10 +23,14 @@ function App() {
        
         <div className='routemain'>
        <Routes>
-       <Route path="/" element={<Header/>} />
-       <Route path="/contactus" element={<ContactUs/>} />
-      
+          <Route path="/" element={<Header/>} />
+          <Route path="/contactus" element={<ContactUs/>} />
+          <Route path="/addproject" element={<AddProject/>} />
+          <Route path="/projects" element={<ProjectsHome/>} />
+          <Route path="/projects/:id" element={<ProjectDetail/>} />
+          
       </Routes>
+      
       </div>
 
     </div>

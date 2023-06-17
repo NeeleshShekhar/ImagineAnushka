@@ -7,6 +7,7 @@ import Offering from '../Offering/Offering';
 import Comingsoon from '../ComingSoon/ComingSoon';
 
 
+
 export class Header extends Component {
   static propTypes = {}
 
@@ -17,7 +18,10 @@ export class Header extends Component {
         <Home/>
         {/* <CaraouselMain/> */}
         <Offering/>
-        <Comingsoon/>
+        {/* <Comingsoon/> */}
+
+        
+        
       </div>
     )
   }

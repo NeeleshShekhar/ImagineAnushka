@@ -29,8 +29,8 @@ export class Home extends Component {
             </div>
             <br></br><br></br>
             <div className='leftpls'>
-            <a href="/contactus"><span className='startnowbutton'>Lets Start your Dream Project</span></a>
-            <a href="/aboutus"><span className='readmorebutton'>About us</span></a>
+            <Button variant='outline-success' className='startnowbutton'><a href="/contactus">Lets Start your Dream Project</a></Button>
+            <Button variant='outline-info' className='readmorebutton'><a href="/aboutus">About us</a></Button>
             </div>
 
             </Col>
